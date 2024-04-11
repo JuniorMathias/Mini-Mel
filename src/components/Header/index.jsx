@@ -1,11 +1,11 @@
 import * as S from './styles';
 
 function Header(){
-    return(
-        <div>
-            <h1>Header</h1>
-        </div>
-    )
+  return(
+    <S.Container>
+        Header
+    </S.Container>
+  )
 }
 
 
