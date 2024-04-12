@@ -1,11 +1,11 @@
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 
 // pages
-// import Home from './../pages/Home';
+import Home from './../pages/Home';
 
 
 //components
-import Header from '../components/Header';
+// import Header from '../components/Header';
 
 
 
@@ -14,9 +14,9 @@ function RoutesApp() {
 
   return (
     <BrowserRouter>
-      <Header/>
+      {/* <Header/> */}
       <Routes>
-        {/* <Route path="/" element={<Home /> } /> */}
+        <Route path="/" element={<Home /> } />
       </Routes>
     </BrowserRouter>
   );

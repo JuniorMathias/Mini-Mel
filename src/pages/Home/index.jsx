@@ -1,10 +1,13 @@
 import "./../../styles/index.css"
+import Header from "../../components/Header";
+import Banner from "../../components/Banner"
 
 function Home(){
   return(
-    <div>
-        <h1 className="text-blue-700">Hello world</h1>
-    </div>
+    <>
+        <Header />
+        <Banner />
+    </>
   )
 }
 
