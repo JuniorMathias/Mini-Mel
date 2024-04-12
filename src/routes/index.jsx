@@ -1,7 +1,7 @@
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 
 // pages
-import Home from './../pages/Home';
+// import Home from './../pages/Home';
 
 
 //components
@@ -16,7 +16,7 @@ function RoutesApp() {
     <BrowserRouter>
       <Header/>
       <Routes>
-        <Route path="/" element={<Home /> } />
+        {/* <Route path="/" element={<Home /> } /> */}
       </Routes>
     </BrowserRouter>
   );

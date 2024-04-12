@@ -16,4 +16,12 @@ export default createGlobalStyle`
     cursor: pointer;
   }
 
+  .app {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
 `;
