@@ -2,9 +2,9 @@ import * as S from './styles';
 
 function Header(){
   return(
-    <S.Container>
-        Header
-    </S.Container>
+    <div className='bg-blue-500'>
+      <h1>Hello world</h1>
+    </div>
   )
 }
 
