@@ -32,16 +32,16 @@ function Header(){
             <input type='text' placeholder='O que você está procurando?' class='xl:w-96 max-lg:w-full lg:ml-8 max-md:mt-0 max-lg:ml-4 bg-gray-100 px-6 rounded h-10 outline-[#333] text-sm' />
             <div class="ml-auto max-lg:mt-4">
               <ul class='flex items-center'>
-                <li class='max-sm:hidden flex text-[15px] max-lg:py-2 px-3 font-medium text-secondary hover:text-primary hover:fill-secondary cursor-pointer'>
-                  <PiChatsThin className="mx-2 w-6 h-6" />
+                <li class='max-sm:hidden flex text-[15px] max-lg:py-2 px-3 font-medium text-primary hover:text-primary hover:fill-secondary cursor-pointer'>
+                  <PiChatsThin className="mx-2 w-6 h-6 text-secondary" />
                   Central de Atendimento
                 </li>
-                <li class='flex text-[15px] max-lg:py-2 px-3  text-secondary hover:text-primary hover:fill-secondary cursor-pointer'>
-                  <BsCart3 className="w-5 h-6" />
+                <li class='flex text-[15px] max-lg:py-2 px-3  text-primary hover:text-primary hover:fill-secondary cursor-pointer'>
+                  <BsCart3 className="w-5 h-6 text-secondary" />
                 </li>
                 <li id="toggle" class='flex text-[15px] max-lg:py-2 px-3  text-secondary hover:text-primary hover:fill-secondary cursor-pointer lg:hidden'>
                   <button>
-                    <TiThMenu className="w-5 h-6"/>
+                    <TiThMenu className="w-5 h-6 "/>
                   </button>
                 </li>
               </ul>
