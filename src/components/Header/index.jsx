@@ -1,7 +1,9 @@
 // import * as S from './styles';
+import { Link } from 'react-router-dom';
+
 import bee from '../../assets/bee/marca_dagua.png';
 import logo from '../../assets/logo/V3Prancheta 1.png'
-import { Link } from 'react-router-dom';
+// import logo from '../../assets/logo_secondary/V3Prancheta 1.png'
 
 import { PiChatsThin } from "react-icons/pi";
 import { BsCart3 } from "react-icons/bs";
@@ -12,7 +14,7 @@ function Header(){
   return(
   <>
     <section class='py-2 bg-primary text-white text-center px-8'>
-      <Link to="/" class='text-white'>
+      <Link to="/" class='text-secondary'>
         <img src={bee}  alt="bee" className='inline-block w-6 h-auto' />
         <strong class="mx-2">SEJA UMA REVENDEDORA</strong> 
         <strong className="text-secondary"> MINI MEL</strong>
@@ -21,9 +23,9 @@ function Header(){
 
     <header class='shadow-sm shadow-primary font-[sans-serif] flex justify-center'>
         <section
-          class=' md:flex lg:items-center relative py-2 lg:px-10 px-4 lg:min-h-[75px] max-lg:min-h-[60px]'>
+          class=' md:flex lg:items-center relative lg:px-10 px-4 lg:min-h-[75px] max-lg:min-h-[30px]'>
           <a href="javascript:void(0)" class="max-sm:w-full max-sm:mb-3 shrink-0">
-            <img src={logo} alt="logo" class='w-[150px]' />
+            <img src={logo} alt="logo" class='w-25 h-[150px]' />
           </a>
           <div class='flex flex-wrap w-full items-center'>
             <input type='text' placeholder='O que você está procurando?' class='xl:w-96 max-lg:w-full lg:ml-8 max-md:mt-0 max-lg:ml-4 bg-gray-100 px-6 rounded h-10 outline-[#333] text-sm' />
