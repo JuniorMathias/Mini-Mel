@@ -47,7 +47,7 @@ function Banner() {
         className='w-full h-[580px] rounded bg-contain bg-no-repeat duration-500 transform transition-transform'
       ></div>
 
-        <div className='group-hover:block absolute top-[50%] -translate-x-0 translate-y-[-50%] left-5 text-2xl rounded-full p-2 bg-black/20 text-white cursor-pointer'>
+        <div className='group-hover:block absolute left-5 text-2xl rounded-full p-2 bg-black/20 text-white cursor-pointer top-1/2 sm:top-1/2 transform -translate-y-1/2'>
           <BsChevronCompactLeft onClick={prevSlide} size={30} />
         </div>
 
@@ -66,6 +66,7 @@ function Banner() {
           ))}
         </div>
       </div>
+      
     </>
   );
 }
