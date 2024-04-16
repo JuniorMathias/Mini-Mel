@@ -42,10 +42,10 @@ function Banner() {
     <>
       
       <div className='max-w-[1400px] h-[480px] w-full m-auto py-5 px-4 relative group overflow-hidden'>
-      <div
-        style={{ backgroundImage: `url(${slides[currentIndex].url})` }}
-        className='w-full h-[580px] rounded bg-contain bg-no-repeat duration-500 transform transition-transform'
-      ></div>
+        <div
+          style={{ backgroundImage: `url(${slides[currentIndex].url})` }}
+          className='w-full h-[580px] rounded bg-contain bg-no-repeat duration-500 transform transition-transform'
+        ></div>
 
         <div className='group-hover:block absolute left-5 text-2xl rounded-full p-2 bg-black/20 text-white cursor-pointer top-1/2 sm:top-1/2 transform -translate-y-1/2'>
           <BsChevronCompactLeft onClick={prevSlide} size={30} />
