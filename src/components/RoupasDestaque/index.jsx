@@ -1,17 +1,12 @@
 import React, { useState, useEffect } from 'react';
 
-import banner1 from '../../assets/banners/b1.jpg'
-import banner2 from '../../assets/banners/b4.jpg'
-import banner3 from '../../assets/banners/b3.jpg'
-import banner4 from '../../assets/banners/b5.jpg'
-
 const slides = [
-  { url: "https://readymadeui.com/images/product1.webp",},
-  { url: "https://readymadeui.com/images/product2.webp",},
-  { url: "https://readymadeui.com/images/product3.webp",},
-  { url: "https://readymadeui.com/images/product4.webp",},
-  { url: "https://readymadeui.com/images/product5.webp",},
-  { url: "https://readymadeui.com/images/product6.webp",}
+  { url: "https://readymadeui.com/images/product1.webp"},
+  { url: "https://readymadeui.com/images/product2.webp"},
+  { url: "https://readymadeui.com/images/product3.webp"},
+  { url: "https://readymadeui.com/images/product4.webp"},
+  { url: "https://readymadeui.com/images/product5.webp"},
+  { url: "https://readymadeui.com/images/product9.webp"}
 ];
 function RoupasDestaque() {
 
@@ -32,7 +27,7 @@ function RoupasDestaque() {
   };
 
   useEffect(() => {
-    const interval = setInterval(nextSlide, 1000);
+    const interval = setInterval(nextSlide, 5000);
     return () => clearInterval(interval);
   }, [currentIndex]);
 
