@@ -65,10 +65,10 @@ function RoupasDestaque() {
           </div>
         ))}
       </div>
-      {/* <div className="flex justify-between mt-4">
+      <div className="flex justify-between mt-4">
         <button onClick={prevSlide}>Anterior</button>
         <button onClick={nextSlide}>Próximo</button>
-      </div> */}
+      </div>
     </div>
 
 
