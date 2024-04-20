@@ -6,11 +6,21 @@ function Modelos() {
       </div>
       <section className="flex justify-center items-center">
         <div className="flex space-x-20">
-          <img src="https://readymadeui.com/profile_2.webp" class="w-[150px] h-[150px] rounded-full "/>
-          <img src="https://readymadeui.com/profile_2.webp" class="w-[150px] h-[150px] rounded-full"/>
-          <img src="https://readymadeui.com/profile_2.webp" class="w-[150px] h-[150px] rounded-full"/>
-          <img src="https://readymadeui.com/profile_2.webp" class="w-[150px] h-[150px] rounded-full"/>
-          <img src="https://readymadeui.com/profile_2.webp" class="w-[150px] h-[150px] rounded-full"/>
+          <div>
+            <img src="https://readymadeui.com/profile_2.webp" class="w-[150px] h-[150px] rounded-full "/>
+          </div>
+          <div>
+            <img src="https://readymadeui.com/profile_2.webp" class="w-[150px] h-[150px] rounded-full "/>
+          </div>
+          <div>
+            <img src="https://readymadeui.com/profile_2.webp" class="w-[150px] h-[150px] rounded-full "/>
+          </div>
+          <div>
+            <img src="https://readymadeui.com/profile_2.webp" class="w-[150px] h-[150px] rounded-full "/>
+          </div>
+          <div>
+            <img src="https://readymadeui.com/profile_2.webp" class="w-[150px] h-[150px] rounded-full "/>
+          </div>
         </div>
       </section>
     </>
