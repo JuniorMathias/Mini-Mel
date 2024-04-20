@@ -71,16 +71,7 @@ function Header(){
       </ul>
 
     </div>
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
+
   </>
 
   )
