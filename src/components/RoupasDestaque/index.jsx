@@ -38,13 +38,9 @@ function RoupasDestaque() {
   return (
     <>
     <div class="font-[sans-serif]">
-      <div class="p-4 mx-auto lg:max-w-6xl md:max-w-4xl sm:max-w-full">
+      <div class="p-4 mx-auto lg:max-w-6xl md:max-w-4xl sm:max-w-full text-center ">
         <h2 class="text-4xl font-extrabold text-gray-800 mb-12">SUCESSOS DE VENDA</h2>
-        
-
-
-
-        <div>
+      <div>
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
         {visibleSlides.map((slide, index) => (
           <div key={index} className={`bg-white rounded-md overflow-hidden shadow-md cursor-pointer hover:scale-[1.02] transition-all ${index === 1 ? 'border-2 border-blue-500' : ''}`}>
