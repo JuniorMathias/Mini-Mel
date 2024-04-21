@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 function Modelos() {
   return (
     <>
@@ -7,19 +8,19 @@ function Modelos() {
       <section className="flex justify-center items-center">
         <div className="flex space-x-20">
           <div>
-            <img src="https://readymadeui.com/profile_2.webp" class="w-[150px] h-[150px] rounded-full "/>
+             <Link to="/" class='text-secondary'><img src="https://readymadeui.com/profile_2.webp" class="w-[150px] h-[150px] rounded-full "/> </Link>
           </div>
           <div>
-            <img src="https://readymadeui.com/profile_2.webp" class="w-[150px] h-[150px] rounded-full "/>
+             <Link to="/" class='text-secondary'><img src="https://readymadeui.com/profile_2.webp" class="w-[150px] h-[150px] rounded-full "/> </Link>
           </div>
           <div>
-            <img src="https://readymadeui.com/profile_2.webp" class="w-[150px] h-[150px] rounded-full "/>
+             <Link to="/" class='text-secondary'><img src="https://readymadeui.com/profile_2.webp" class="w-[150px] h-[150px] rounded-full "/> </Link>
           </div>
           <div>
-            <img src="https://readymadeui.com/profile_2.webp" class="w-[150px] h-[150px] rounded-full "/>
+             <Link to="/" class='text-secondary'><img src="https://readymadeui.com/profile_2.webp" class="w-[150px] h-[150px] rounded-full "/> </Link>
           </div>
           <div>
-            <img src="https://readymadeui.com/profile_2.webp" class="w-[150px] h-[150px] rounded-full "/>
+             <Link to="/" class='text-secondary'><img src="https://readymadeui.com/profile_2.webp" class="w-[150px] h-[150px] rounded-full "/> </Link>
           </div>
         </div>
       </section>
