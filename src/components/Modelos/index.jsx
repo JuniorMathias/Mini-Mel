@@ -8,19 +8,19 @@ function Modelos() {
       <section className="flex justify-center items-center">
         <div className="flex space-x-20">
           <div>
-             <Link to="/" class='text-secondary'><img src="https://readymadeui.com/profile_2.webp" class="w-[150px] h-[150px] rounded-full "/> </Link>
+             <Link to="/vestidos" class='text-secondary'><img src="https://readymadeui.com/profile_2.webp" class="w-[150px] h-[150px] rounded-full "/> VESTIDOS</Link>
           </div>
           <div>
-             <Link to="/" class='text-secondary'><img src="https://readymadeui.com/profile_2.webp" class="w-[150px] h-[150px] rounded-full "/> </Link>
+             <Link to="/conjuntos" class='text-secondary'><img src="https://readymadeui.com/profile_2.webp" class="w-[150px] h-[150px] rounded-full "/>CONJUNTOS </Link>
           </div>
           <div>
-             <Link to="/" class='text-secondary'><img src="https://readymadeui.com/profile_2.webp" class="w-[150px] h-[150px] rounded-full "/> </Link>
+             <Link to="/blusas" class='text-secondary'><img src="https://readymadeui.com/profile_2.webp" class="w-[150px] h-[150px] rounded-full "/>BLUSAS</Link>
           </div>
           <div>
-             <Link to="/" class='text-secondary'><img src="https://readymadeui.com/profile_2.webp" class="w-[150px] h-[150px] rounded-full "/> </Link>
+             <Link to="/shorts" class='text-secondary'><img src="https://readymadeui.com/profile_2.webp" class="w-[150px] h-[150px] rounded-full "/> SHORTS</Link>
           </div>
           <div>
-             <Link to="/" class='text-secondary'><img src="https://readymadeui.com/profile_2.webp" class="w-[150px] h-[150px] rounded-full "/> </Link>
+             <Link to="/macaquinhos" class='text-secondary'><img src="https://readymadeui.com/profile_2.webp" class="w-[150px] h-[150px] rounded-full "/>MACAQUINHOS </Link>
           </div>
         </div>
       </section>
