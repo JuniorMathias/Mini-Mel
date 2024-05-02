@@ -4,6 +4,7 @@ import Banner from "../../components/Banner"
 import MessageList from "../../components/MessageList";
 import RoupasDestaque from "../../components/RoupasDestaque";
 import Modelos from "../../components/Modelos";
+import Footer from "../../components/Footer";
 
 function Home(){
   return(
@@ -13,6 +14,7 @@ function Home(){
         <MessageList />
         <RoupasDestaque />
         <Modelos />
+        <Footer />
     </>
   )
 }
