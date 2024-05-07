@@ -25,7 +25,7 @@ function MessageList() {
           <p className="text-lg text-secondary">Atacado a partir de 15 peças</p>
         </div>
       </section>
-      <section class="flex top-4 justify-center py-2 bg-primary w-1/2 m-auto rounded">
+      <section class="flex top-4 justify-center py-2 bg-primary lg:w-1/2 sm:w-full m-auto rounded">
           <strong class="text-white">ATACADO A PARTIR DE 6 PEÇAS</strong>
       </section>
     </>

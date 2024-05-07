@@ -2,7 +2,7 @@ import bee from '../../assets/bee/marca_dagua.png';
 function Footer(){
   return(
   <>
-    <footer class="bg-secondary font-sans mt-10">
+    <footer class="bg-secondary font-sans mt-10 w-full">
       <div class="py-14 px-6 sm:px-10">
         <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-8">
 
